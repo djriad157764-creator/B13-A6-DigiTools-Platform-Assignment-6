@@ -44,7 +44,7 @@ const Navbar = () => {
           )}
         </div>
         <a
-          className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pb-2
+          className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pb-2 cursor-pointer
           "
         >
           DigiTool
@@ -70,10 +70,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="mr-4">
+        <a className="mr-4 cursor-pointer">
           <FiShoppingCart className="text-base" />
         </a>
-        <a className="mr-4 text-base font-semibold text-[#101727]">Login</a>
+        <a className="mr-4 cursor-pointer text-base font-semibold text-[#101727]">
+          Login
+        </a>
         <button className="btn btn-primary btn-sm sm:btn-md rounded-full">
           Get Started
         </button>

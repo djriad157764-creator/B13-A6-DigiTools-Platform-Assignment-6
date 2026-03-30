@@ -4,7 +4,7 @@ import RocketImage from "../../assets/rocket.png";
 
 const GetStarted = () => {
   return (
-    <div className="bg-base-300 px-5">
+    <div className="bg-base-300 px-4 sm:px-6">
       <div className="py-[12px] w-full max-w-[1200px] mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
@@ -17,7 +17,7 @@ const GetStarted = () => {
 
         {/* card container  */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-[120px]">
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl">
+          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral/11  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
               className="mx-auto w-[100px] rounded-full  bg-base-300 p-5 mb-4"
               src={UserImage}
@@ -37,7 +37,7 @@ const GetStarted = () => {
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl">
+          <div className="text-center relative bg-white px-6 py-12 rounded-2xl transition duration-300 hover:shadow-xl hover:-translate-y-2">
             <img
               className="mx-auto w-[100px] rounded-full  bg-base-300 p-5 mb-4"
               src={ProductImage}
@@ -53,11 +53,11 @@ const GetStarted = () => {
 
             <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
               <h1 className="text-white flex text-[14px] font-bold  justify-center items-center h-full">
-                01
+                02
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl">
+          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral/11  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <div className="w-[100px] h-[100px] mx-auto rounded-full bg-base-300 flex items-center justify-center mb-4">
               <img
                 className="w-[60px] object-contain"
@@ -72,9 +72,9 @@ const GetStarted = () => {
               Sign up for free in seconds. No credit card required to get
               started.
             </p>
-            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
+            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full ">
               <h1 className="text-white flex text-[14px] font-bold  justify-center items-center h-full">
-                01
+                03
               </h1>
             </div>
           </div>

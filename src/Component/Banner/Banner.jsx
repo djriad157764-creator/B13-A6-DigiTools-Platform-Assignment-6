@@ -1,5 +1,7 @@
 import React from "react";
 import BannerImage from "../../assets/banner.png";
+import { IoPlayOutline } from "react-icons/io5";
+
 
 const Banner = () => {
   return (
@@ -33,10 +35,11 @@ const Banner = () => {
           </p>
         </div>
         <div className="mt-4 flex items-center gap-4">
-          <button className="btn btn-primary rounded-full hover:bg-blue-800 ">
+          <button className="btn btn-primary hover:scale-[1.05] duration-500 transition-transform rounded-full hover:bg-blue-800 ">
             Explore Products
           </button>
-          <button className="btn text-blue-600 border-[1px] hover:bg-blue-600 hover:text-white border-blue-600 rounded-full">
+          <button className="btn text-blue-700 border-[1px] hover:scale-[1.01] duration-500 transition hover:bg-blue-600 hover:text-white border-blue-600 rounded-full">
+            <IoPlayOutline className="text-xl" />
             Watch Demo
           </button>
         </div>

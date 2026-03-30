@@ -76,7 +76,7 @@ const Navbar = () => {
         <a className="mr-4 cursor-pointer text-base font-semibold text-[#101727]">
           Login
         </a>
-        <button className="btn btn-primary btn-sm sm:btn-md rounded-full">
+        <button className="btn btn-primary  sm:btn-md rounded-full">
           Get Started
         </button>
       </div>

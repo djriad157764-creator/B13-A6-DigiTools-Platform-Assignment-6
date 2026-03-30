@@ -1,8 +1,10 @@
 import "./App.css";
 import Banner from "./Component/Banner/Banner";
 import Footer from "./Component/Footer/Footer";
-import GetStarted from "./Component/GetStarted/GetStarted";
+import GetStartedSection from "./Component/GetStartedSection/GetStartedSection";
+
 import Navbar from "./Component/Navbar/Navbar";
+import OptionalSection from "./Component/OptionalSection/OptionalSection";
 import StatsSection from "./Component/StatsSection/StatsSection";
 import TransparentPricing from "./Component/TransparentPricing/TransparentPricing";
 
@@ -18,11 +20,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Banner />
-      <StatsSection />
-      <GetStarted />
-      <TransparentPricing planPromise={planPromise} />
-      <Footer/>
+      {/* <Banner /> */}
+      {/* <StatsSection /> */}
+      {/* <GetStartedSection /> */}
+      {/* <TransparentPricing planPromise={planPromise} /> */}
+      <OptionalSection />
+      <Footer />
     </>
   );
 }

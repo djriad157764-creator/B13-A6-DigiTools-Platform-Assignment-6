@@ -16,7 +16,7 @@ const TransparentCard = ({ cardData }) => {
             <p className={` ${!badge && "text-[#627382]"}`}>{description}</p>
           </div>
           <div className="mb-6">
-            <span className="text-[40px] font-bold">$29</span>
+            <span className="text-[40px] font-bold">${price}</span>
             <span className={` ${!badge && "text-[#627382] text-xl"}`}>
               /{interval}
             </span>
@@ -25,6 +25,7 @@ const TransparentCard = ({ cardData }) => {
           <ul className="mt-6 flex mb-6 flex-col gap-2 text-xs">
             {features.map((el, index) => (
               <li
+                key={index}
                 className={`flex  items-center gap-2 ${!badge && "text-[#627382]"}`}
               >
                 <GiCheckMark className={` ${!badge && "text-[#30B868]"}`} />

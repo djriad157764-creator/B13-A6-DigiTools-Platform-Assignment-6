@@ -8,7 +8,7 @@ const Home = ({ promiseJsonData, clickedBtn, selectItem, setSelectItem }) => {
   return (
     <>
       {clickedBtn === "product" ?
-        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-[30px] w-full max-w-[1200px] px-5 mx-auto mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-7.5 w-full max-w-300 px-5 mx-auto mt-10">
           {mainData.map((cardData) => (
             <Card
               setSelectItem={setSelectItem}

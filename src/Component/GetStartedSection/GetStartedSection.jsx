@@ -5,7 +5,7 @@ import RocketImage from "../../assets/rocket.png";
 const GetStartedSection = () => {
   return (
     <div className="bg-base-100 px-4 mt-8 sm:px-6">
-      <div className="py-[12px] w-full max-w-[1200px] mx-auto ">
+      <div className="py-3 w-full max-w-300 mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
             Get Started in 3 Steps
@@ -16,10 +16,10 @@ const GetStartedSection = () => {
         </div>
 
         {/* card container  */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-[120px]">
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-30">
+          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-[100px] rounded-full  bg-base-100 p-5 mb-4"
+              className="mx-auto w-25 rounded-full  bg-base-100 p-5 mb-4"
               src={UserImage}
               alt="Create account illustration"
             />
@@ -31,15 +31,15 @@ const GetStartedSection = () => {
               started.
             </p>
 
-            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
+            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
               <h1 className="text-white flex text-[14px] font-bold  justify-center items-center h-full">
                 01
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-[100px] rounded-full  bg-base-100 p-5 mb-4"
+              className="mx-auto w-25 rounded-full  bg-base-100 p-5 mb-4"
               src={ProductImage}
               alt="Choose products illustration"
             />
@@ -50,16 +50,16 @@ const GetStartedSection = () => {
               Browse our catalog and select the tools that fit your needs.
             </p>
 
-            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
+            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full">
               <h1 className="text-white flex text-[14px] font-bold  justify-center items-center h-full">
                 02
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
-            <div className="w-[100px] h-[100px] mx-auto rounded-full bg-base-100 flex items-center justify-center mb-4">
+          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+            <div className="w-25 h-25 mx-auto rounded-full bg-base-100 flex items-center justify-center mb-4">
               <img
-                className="w-[60px] object-contain"
+                className="w-15 object-contain"
                 src={RocketImage}
                 alt="Start creating illustration"
               />
@@ -70,7 +70,7 @@ const GetStartedSection = () => {
             <p className="text-[#627382]">
               Download and start using your premium tools immediately.
             </p>
-            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full ">
+            <div className="w-10 h-10 p-2.5 absolute top-5 right-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full ">
               <h1 className="text-white flex text-[14px] font-bold  justify-center items-center h-full">
                 03
               </h1>

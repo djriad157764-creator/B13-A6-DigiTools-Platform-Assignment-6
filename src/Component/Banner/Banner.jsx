@@ -4,7 +4,7 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div className="w-full max-w-[1200px] mx-auto px-5  lg:flex items-center mt-20 justify-between">
+    <div className="w-full max-w-300 mx-auto px-5  lg:flex items-center mt-20 justify-between">
       {/* banner left */}
 
       <div className="mb-5">
@@ -16,7 +16,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <a className="text-base font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
+          <a className="text-base font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
             New: AI-Powered Tools Available
           </a>
         </div>
@@ -39,7 +39,7 @@ const Banner = () => {
           <button className="btn btn-primary hover:scale-[1.05] duration-500 transition-transform rounded-full hover:bg-blue-800 ">
             Explore Products
           </button>
-          <button className="btn text-blue-700 border-[1px] hover:scale-[1.01] duration-500 transition hover:bg-blue-600 hover:text-white border-blue-600 rounded-full">
+          <button className="btn text-blue-700 border hover:scale-[1.01] duration-500 transition hover:bg-blue-600 hover:text-white border-blue-600 rounded-full">
             <IoPlayOutline className="text-xl" />
             Watch Demo
           </button>

@@ -2,15 +2,16 @@ import React from "react";
 
 const OptionalSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-5">
-      <div className=" w-full max-w-[1200px] mx-auto text-center py-[120px]">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] px-5">
+      <div className=" w-full max-w-300 mx-auto text-center py-30">
         <div className="mb-10">
           <h1 className="text-white font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl">
             Ready to Transform Your Workflow?
           </h1>
           <p className="text-white/90">
             Join thousands of professionals who are already using Digitools to
-            work smarter. <br className="hidden lg:block" /> Start your free trial today.
+            work smarter. <br className="hidden lg:block" /> Start your free
+            trial today.
           </p>
         </div>
         <div className="">

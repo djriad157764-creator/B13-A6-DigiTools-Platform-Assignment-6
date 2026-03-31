@@ -5,8 +5,10 @@ import { FaOpencart } from "react-icons/fa";
 import { IoCheckmarkSharp } from "react-icons/io5";
 
 const SelectedCard = ({ selectItem, setSelectItem }) => {
+  // reduce Total Price
   const totalPrice = selectItem.reduce((sum, item) => sum + item.price, 0);
 
+  // Proceed to Checkout Button Handle Function
   const handleProceedBtn = () => {
     setSelectItem([]);
     toast.info(
@@ -22,10 +24,14 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
     );
   };
 
+  if (selectItem.length === 0) {
+  toast.warning("Your Cart is Empty Please Add Card")
+}
+
   return (
     <>
       {selectItem.length === 0 ?
-        <div className="w-full max-w-[1200px] space-y-3 mt-10 mx-auto p-10 border-2 mb-[120px] border-base-200 rounded-2xl flex flex-col justify-center items-center ">
+        <div className="w-full max-w-300 space-y-3 mt-10 mx-auto p-10 border-2 mb-30 border-base-200 rounded-2xl flex flex-col justify-center items-center ">
           <div className="text-5xl sm:text-6xl md:text-7xl text-gray-400 animate-pulse">
             <FaOpencart />
           </div>
@@ -40,7 +46,7 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
             </p>
           </div>
         </div>
-      : <div className="w-full max-w-[1200px] mt-10 mx-auto p-2 sm:p-6 md:p-10 border-2 mb-[120px] border-base-200 rounded-2xl">
+      : <div className="w-full max-w-300 mt-10 mx-auto p-2 sm:p-6 md:p-10 border-2 mb-30 border-base-200 rounded-2xl">
           <div className="">
             <h1 className="font-bold text-2xl">your Cart</h1>
           </div>

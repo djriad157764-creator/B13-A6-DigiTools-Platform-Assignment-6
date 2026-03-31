@@ -2,12 +2,13 @@ import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 
 const TransparentCard = ({ cardData }) => {
-  console.log(cardData);
+  // cardData Destructure
   const { name, cta_text, description, features, interval, price, badge } =
     cardData;
   return (
+    // Main Section Card
     <div
-      className={`card relative  transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm ${badge ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white " : "bg-base-100 "}`}
+      className={`card relative  transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm ${badge ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white " : "bg-base-100 "}`}
     >
       <div className="card-body flex flex-col">
         <div className="flex-1 flex-col">

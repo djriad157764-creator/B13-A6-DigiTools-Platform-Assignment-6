@@ -2,6 +2,7 @@ import React from "react";
 import { toast } from "react-toastify";
 
 const Cart = ({ cartData, selectItem, setSelectItem }) => {
+  // Remove Button Handle , Remove Card Data From Cart Section
   const handleRemoveBtn = () => {
     const filteredItem = selectItem.filter((item) => item.id !== cartData.id);
     setSelectItem(filteredItem);
@@ -16,9 +17,9 @@ const Cart = ({ cartData, selectItem, setSelectItem }) => {
   };
 
   return (
-    <div className="bg-neutral-50 p-4 sm:p-[22px] flex justify-between items-center mb-4 rounded-2xl mt-6">
+    <div className="bg-neutral-50 p-4 sm:p-5.5 flex justify-between items-center mb-4 rounded-2xl mt-6">
       <div className="flex items-center gap-2 sm:gap-4">
-        <div className="p-[14px] border-2 rounded-full w-fit border-[#F2F2F2] bg-white ">
+        <div className="p-3.5 border-2 rounded-full w-fit border-[#F2F2F2] bg-white ">
           <img
             className="w-5 h-5 sm:w-8 sm:h-8 object-cover rounded-full"
             src={cartData.image}

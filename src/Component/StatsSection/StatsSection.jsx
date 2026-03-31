@@ -2,8 +2,8 @@ import React from "react";
 
 const StatsSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] mt-20 mb-[120px]">
-      <div className="w-full max-w-[1200px] mx-auto grid grid-cols-3 py-15">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] mt-20 mb-30">
+      <div className="w-full max-w-300 mx-auto grid grid-cols-3 py-15">
         <div className="text-center border-r-2 border-white/40">
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             50k +

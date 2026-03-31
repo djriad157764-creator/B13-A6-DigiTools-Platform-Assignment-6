@@ -2,7 +2,7 @@ import React from "react";
 
 const PremiumDigitalTools = ({ setClickedBtn, clickedBtn, selectItem }) => {
   return (
-    <div className="mt-[120px] w-full bg-base-100 mx-auto">
+    <div className="mt-30 w-full bg-base-100 mx-auto">
       <div className="text-center">
         <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
           Premium Digital Tools

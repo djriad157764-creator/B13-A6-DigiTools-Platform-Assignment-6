@@ -7,7 +7,7 @@ const TransparentPricing = ({ planPromise }) => {
 
   return (
     <div className="bg-[#F9FAFC] px-4 sm:px-6">
-      <div className="py-[12px] w-full max-w-[1200px] mx-auto ">
+      <div className="py-3 w-full max-w-300 mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
             Simple, Transparent Pricing
@@ -18,7 +18,7 @@ const TransparentPricing = ({ planPromise }) => {
         </div>
 
         {/* card container  */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-[120px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-30">
           {plantData.map((cardData, index) => (
             <TransparentCard key={index} cardData={cardData} />
           ))}

@@ -6,7 +6,7 @@ import { LuTwitter } from "react-icons/lu";
 const Footer = () => {
   return (
     <footer className="bg-[#101727]">
-      <div className="footer w-full pt-[120px] max-w-[1200px] mx-auto sm:footer-horizontal  text-white p-10">
+      <div className="footer w-full pt-30 max-w-300 mx-auto sm:footer-horizontal  text-white p-10">
         <aside>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 cursor-pointer">
             DigiTools
@@ -53,9 +53,9 @@ const Footer = () => {
         </nav>
       </div>
 
-      <div className="border-b-2 border-gray-700 w-full max-w-[1200px] mx-auto"></div>
+      <div className="border-b-2 border-gray-700 w-full max-w-300 mx-auto"></div>
 
-      <div className="text-[#ffffffe1] md:flex px-5 text-center md:text-start  justify-between w-full max-w-[1200px] mx-auto py-[30px]">
+      <div className="text-[#ffffffe1] md:flex px-5 text-center md:text-start  justify-between w-full max-w-300 mx-auto py-7.5">
         <div className="mb-4">
           <p>© 2026 Digitools. All rights reserved.</p>
         </div>

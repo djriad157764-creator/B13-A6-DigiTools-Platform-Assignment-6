@@ -8,14 +8,15 @@ import PremiumDigitalTools from "./Component/PremiumDigitalTools/PremiumDigitalT
 import StatsSection from "./Component/StatsSection/StatsSection";
 import TransparentPricing from "./Component/TransparentPricing/TransparentPricing";
 import Home from "./Component/Home/Home";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 
-
+// Fetch Main Data from Public Folder
 const fetchDataFromJson = async () => {
   const res = await fetch("mainApiData.json");
   return res.json();
 };
 
+// fetchDataFromJson Function Call
 const promiseJsonData = fetchDataFromJson();
 
 // TransparentPricing data fetch
@@ -24,40 +25,56 @@ const fetchPricingData = async () => {
   return res.json();
 };
 
+// fetchPricingData Function Call
 const planPromise = fetchPricingData();
 
 function App() {
+  // useState Use for Toggle Product and Cart Button , Default Product Button Active
   const [clickedBtn, setClickedBtn] = useState("product");
 
+  // useState Use for Add Data Cart Section and Handle selectItem Array
   const [selectItem, setSelectItem] = useState([]);
 
   return (
     <>
+      {/* Navbar  */}
       <Navbar selectItem={selectItem} />
 
-      
-
+      {/* Banner Section  */}
       <Banner />
+
+      {/* Stats Section  */}
       <StatsSection />
 
+      {/* Premium Digital Tools Section  */}
       <PremiumDigitalTools
         selectItem={selectItem}
         clickedBtn={clickedBtn}
         setClickedBtn={setClickedBtn}
       />
 
-      <div className=""></div>
+      {/* Home Section  */}
+      <Suspense>
+        <Home
+          setSelectItem={setSelectItem}
+          selectItem={selectItem}
+          clickedBtn={clickedBtn}
+          promiseJsonData={promiseJsonData}
+        />
+      </Suspense>
 
-      <Home
-        setSelectItem={setSelectItem}
-        selectItem={selectItem}
-        clickedBtn={clickedBtn}
-        promiseJsonData={promiseJsonData}
-      />
-
+      {/* Gets Started Section  */}
       <GetStartedSection />
-      <TransparentPricing planPromise={planPromise} />
+
+      {/* Transparent Pricing Section  */}
+      <Suspense>
+        <TransparentPricing planPromise={planPromise} />
+      </Suspense>
+
+      {/* Optional Section  */}
       <OptionalSection />
+
+      {/* Footer  */}
       <Footer />
     </>
   );

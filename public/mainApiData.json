@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Design Templates Pack",
+    "description": "Professional templates for social media marketing, easy customization.",
+    "image": "https://i.ibb.co.com/GfPg57LB/1200x630wa.jpg",
+    "price": 14,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ templates",
+      "Social media ready",
+      "Print-ready files",
+      "Editable in Canva & Photoshop"
+    ],
+    "icon": "palette-outline"
+  },
+  {
+    "id": 2,
+    "name": "Premium Stock Assets",
+    "description": "Millions of high-quality photos, videos, and graphics.\nRoyalty-free assets for commercial use.",
+    "image": "https://i.ibb.co.com/ZR5TCPY6/ai-writer-course-online-6567352536400795-l.jpg",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "10M+ assets",
+      "4K videos",
+      "Royalty-free license",
+      "New assets daily"
+    ],
+    "icon": "images-outline"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer Pro",
+    "description": "Generate blogs, ads, emails using advanced AI tools.",
+    "image": "https://i.ibb.co.com/XZZcFW3D/graphic-design-mega-bundle.jpg",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ templates",
+      "SEO optimization",
+      "Plagiarism checker",
+      "50+ languages"
+    ],
+    "icon": "create-outline"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Scheduler",
+    "description": "Schedule posts across platforms with analytics and collaboration tools.",
+    "image": "https://i.ibb.co.com/cSnwDZFf/hq720.jpg",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited scheduling",
+      "Analytics dashboard",
+      "Team collaboration",
+      "Bulk upload"
+    ],
+    "icon": "calendar-outline"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Suite",
+    "description": "Create ATS-friendly resumes and cover letters quickly and easily.",
+    "image": "https://i.ibb.co.com/YrDY1JB/images.jpg",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF/DOCX",
+      "Cover letter builder"
+    ],
+    "icon": "document-text-outline"
+  },
+  {
+    "id": 6,
+    "name": "Video Editing Kit",
+    "description": "Templates, transitions, effects for professional video editing projects.",
+    "image": "https://i.ibb.co.com/3bX4k6F/pngtree-pharmaceutical-packaging-design-template-vector-image-2039571.jpg",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "1000+ transitions",
+      "Sound effects library",
+      "Premiere Pro & DaVinci",
+      "4K ready"
+    ],
+    "icon": "videocam-outline"
+  },
+  {
+    "id": 7,
+    "name": "SEO Toolkit Pro",
+    "description": "Keyword research, rank tracking, backlink analysis, full SEO tools.",
+    "image": "https://i.ibb.co.com/RpwY38L2/premium-quality-guarantee-seal-branding-stamp-marketing-asset-3-BP1-ABA.jpg",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research",
+      "Rank tracking",
+      "Backlink analyzer",
+      "Site audit"
+    ],
+    "icon": "trending-up-outline"
+  },
+  {
+    "id": 8,
+    "name": "Ebook Creator Studio",
+    "description": "Create interactive ebooks with drag drop editor and export.",
+    "image": "https://i.ibb.co.com/VcGVM5rk/SEO-Toolkit-1.jpg",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Drag & drop editor",
+      "Interactive elements",
+      "Multi-format export",
+      "Lead magnet templates"
+    ],
+    "icon": "book-outline"
+  },
+  {
+    "id": 9,
+    "name": "Web Design Bundle",
+    "description": "UI kits, fonts, templates for modern responsive web design",
+    "image": "https://i.ibb.co.com/gbn39ksk/Social-media-scheduling-tools-Final.jpg",
+    "price": 79,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "200+ UI components",
+      "Responsive templates",
+      "Figma & XD files",
+      "Free lifetime updates"
+    ],
+    "icon": "code-slash-outline"
+  }
+]

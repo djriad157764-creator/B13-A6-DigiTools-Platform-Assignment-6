@@ -52,11 +52,14 @@ const Footer = () => {
           </div>
         </nav>
       </div>
+
+      <div className="border-b-2 border-gray-700 w-full max-w-[1200px] mx-auto"></div>
+
       <div className="text-[#ffffffe1] md:flex px-5 text-center md:text-start  justify-between w-full max-w-[1200px] mx-auto py-[30px]">
         <div className="mb-4">
           <p>© 2026 Digitools. All rights reserved.</p>
         </div>
-        <div className="flex gap-6 items-center justify-center">
+        <div className="flex gap-6 items-center text-[14px] sm:text-base justify-center">
           <a>Privacy Policy</a>
           <a>Terms of Service</a>
           <a>Cookies</a>

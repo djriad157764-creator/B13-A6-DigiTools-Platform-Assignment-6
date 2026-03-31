@@ -7,7 +7,7 @@ const TransparentCard = ({ cardData }) => {
     cardData;
   return (
     <div
-      className={`card relative transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm ${badge ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-[102%] h-[102%]" : "bg-base-100"}`}
+      className={`card relative  transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm ${badge ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white " : "bg-base-100 "}`}
     >
       <div className="card-body flex flex-col">
         <div className="flex-1 flex-col">
@@ -22,7 +22,7 @@ const TransparentCard = ({ cardData }) => {
             </span>
           </div>
 
-          <ul className="mt-6 flex mb-6 flex-col gap-2 text-xs">
+          <ul className="mt-6 flex flex-col gap-2 text-xs">
             {features.map((el, index) => (
               <li
                 key={index}
@@ -34,7 +34,7 @@ const TransparentCard = ({ cardData }) => {
             ))}
           </ul>
         </div>
-        <div className="mt-6">
+        <div className="mt-2">
           <button
             className={`btn rounded-full  ${badge ? "text-primary" : "btn-primary"} btn-block`}
           >

@@ -10,10 +10,10 @@ const TransparentPricing = ({ planPromise }) => {
       <div className="py-[12px] w-full max-w-[1200px] mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
-            Get Started in 3 Steps
+            Simple, Transparent Pricing
           </h1>
           <p className="text-[#627382]">
-            Start using premium digital tools in minutes, not hours.
+            Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
 

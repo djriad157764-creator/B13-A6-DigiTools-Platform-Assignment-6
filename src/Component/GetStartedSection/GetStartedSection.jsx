@@ -4,7 +4,7 @@ import RocketImage from "../../assets/rocket.png";
 
 const GetStartedSection = () => {
   return (
-    <div className="bg-[#F9FAFC] px-4 sm:px-6">
+    <div className="bg-[#F9FAFC] px-4 mt-8 sm:px-6">
       <div className="py-[12px] w-full max-w-[1200px] mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">

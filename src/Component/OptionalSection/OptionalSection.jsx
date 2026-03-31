@@ -10,7 +10,7 @@ const OptionalSection = () => {
           </h1>
           <p className="text-white/90">
             Join thousands of professionals who are already using Digitools to
-            work smarter. <br /> Start your free trial today.
+            work smarter. <br className="hidden lg:block" /> Start your free trial today.
           </p>
         </div>
         <div className="">
@@ -22,7 +22,7 @@ const OptionalSection = () => {
               View Pricing
             </button>
           </div>
-          <div className="text-white/90 mt-4">
+          <div className="text-white/90 text-[12px] sm:text-[14px] md:text-base mt-4">
             14-day free trial • No credit card required • Cancel anytime
           </div>
         </div>

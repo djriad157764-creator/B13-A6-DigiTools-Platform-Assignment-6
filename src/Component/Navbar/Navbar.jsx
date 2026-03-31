@@ -3,7 +3,7 @@ import { React, useState } from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoClose, IoMenu } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({ selectItem }) => {
   const [activeB, setActiveB] = useState(false);
 
   return (
@@ -40,6 +40,9 @@ const Navbar = () => {
               <li>
                 <a href="/">FAQ</a>
               </li>
+              <button className="btn btn-primary  btn-sm rounded-full">
+                Get Started
+              </button>
             </ul>
           )}
         </div>
@@ -72,11 +75,12 @@ const Navbar = () => {
       <div className="navbar-end">
         <a className="mr-4 cursor-pointer">
           <FiShoppingCart className="text-base" />
+          {selectItem.length}
         </a>
         <a className="mr-4 cursor-pointer text-base font-semibold text-[#101727]">
           Login
         </a>
-        <button className="btn btn-primary  sm:btn-md rounded-full">
+        <button className="btn btn-primary hidden lg:block sm:btn-md rounded-full">
           Get Started
         </button>
       </div>

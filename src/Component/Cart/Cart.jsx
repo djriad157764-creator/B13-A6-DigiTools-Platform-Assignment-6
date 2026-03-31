@@ -7,7 +7,7 @@ const Cart = ({ cartData, selectItem, setSelectItem }) => {
   };
 
   return (
-    <div className="bg-base-200  p-[22px] flex justify-between items-center mb-4 rounded-2xl mt-6">
+    <div className="bg-base-100  p-[22px] flex justify-between items-center mb-4 rounded-2xl mt-6">
       <div className="flex items-center gap-4">
         <div className="p-[14px] border-2 rounded-full w-fit border-[#F2F2F2] bg-white ">
           <img

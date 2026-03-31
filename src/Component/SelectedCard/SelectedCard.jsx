@@ -7,7 +7,7 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
   };
 
   return (
-    <div className="w-full max-w-[1200px] mt-10 mx-auto p-10 border-2 mb-[120px] border-base-100 rounded-2xl">
+    <div className="w-full max-w-[1200px] mt-10 mx-auto p-10 border-2 mb-[120px] border-base-200 rounded-2xl">
       <div className="">
         <h1>your Cart</h1>
       </div>

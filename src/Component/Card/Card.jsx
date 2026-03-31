@@ -23,7 +23,7 @@ const Card = ({ cardData, selectItem, setSelectItem }) => {
   const btnClicked = buyNowBtnClicked || isAlreadyInCart;
 
   return (
-    <div className="bg-white transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl border-2 p-6  border-[#F2F2F2] space-y-4">
+    <div className="bg-white transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl  p-6  border border-neutral-200 space-y-4">
       <div className="flex-1">
         <div className="p-[14px] border-2 rounded-full w-fit border-[#F2F2F2]">
           <img

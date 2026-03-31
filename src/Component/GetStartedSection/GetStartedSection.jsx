@@ -19,7 +19,7 @@ const GetStartedSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-[120px]">
           <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-[100px] rounded-full  bg-base-300 p-5 mb-4"
+              className="mx-auto w-[100px] rounded-full  bg-base-100 p-5 mb-4"
               src={UserImage}
               alt="Create account illustration"
             />
@@ -39,7 +39,7 @@ const GetStartedSection = () => {
           </div>
           <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-[100px] rounded-full  bg-base-300 p-5 mb-4"
+              className="mx-auto w-[100px] rounded-full  bg-base-100 p-5 mb-4"
               src={ProductImage}
               alt="Choose products illustration"
             />
@@ -57,7 +57,7 @@ const GetStartedSection = () => {
             </div>
           </div>
           <div className="text-center relative bg-white px-6 py-[88px] rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
-            <div className="w-[100px] h-[100px] mx-auto rounded-full bg-base-300 flex items-center justify-center mb-4">
+            <div className="w-[100px] h-[100px] mx-auto rounded-full bg-base-100 flex items-center justify-center mb-4">
               <img
                 className="w-[60px] object-contain"
                 src={RocketImage}

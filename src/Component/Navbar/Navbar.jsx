@@ -7,7 +7,7 @@ const Navbar = ({ selectItem }) => {
   const [activeB, setActiveB] = useState(false);
 
   return (
-    <div className="navbar bg-base-100 w-full max-w-[1200px] shadow-sm mx-auto">
+    <div className="navbar sticky top-0 z-50 backdrop-blur-3xl rounded-b-lg w-full max-w-[1200px] shadow-sm mx-auto">
       <div className="navbar-start">
         <div className="relative">
           <div
@@ -73,11 +73,16 @@ const Navbar = ({ selectItem }) => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="mr-4 cursor-pointer">
-          <FiShoppingCart className="text-base" />
-          {selectItem.length}
-        </a>
-        <a className="mr-4 cursor-pointer text-base font-semibold text-[#101727]">
+        <div className="mr-4 cursor-pointer relative">
+          <FiShoppingCart className="text-2xl " />
+          {selectItem.length !== 0 && (
+            <div className="bg-red-600 text-white absolute -top-1 -right-2  rounded-full flex justify-center items-center text-[10px] w-4 h-4">
+              <p className="font-bold">{selectItem.length}</p>
+            </div>
+          )}
+        </div>
+
+        <a className="mr-4 cursor-pointer text-lg font-semibold text-[#101727]">
           Login
         </a>
         <button className="btn btn-primary hidden lg:block sm:btn-md rounded-full">

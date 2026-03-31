@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CardList from "./CardList";
 import { FcCheckmark } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const Card = ({ cardData, selectItem, setSelectItem }) => {
   const { description, image, features, period, tag, tagType, name, price } =
@@ -14,16 +15,22 @@ const Card = ({ cardData, selectItem, setSelectItem }) => {
   const handleBuyBtn = () => {
     setBuyNowBtnClicked(true);
     if (isAlreadyInCart) {
-      alert("card already added ");
+      toast.error("card already added ");
       return;
     }
     setSelectItem([...selectItem, cardData]);
+    toast.success(
+      <div>
+        <span className="font-extrabold text-lg text-warning"> {name}</span>{" "}
+        Added Successful
+      </div>,
+    );
   };
 
   const btnClicked = buyNowBtnClicked || isAlreadyInCart;
 
   return (
-    <div className="bg-white transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl  p-6  border border-neutral-200 space-y-4">
+    <div className="bg-white transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl  p-6  border border-neutral-100 space-y-4">
       <div className="flex-1">
         <div className="p-[14px] border-2 rounded-full w-fit border-[#F2F2F2]">
           <img

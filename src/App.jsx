@@ -10,6 +10,7 @@ import TransparentPricing from "./Component/TransparentPricing/TransparentPricin
 import Home from "./Component/Home/Home";
 import { useState } from "react";
 
+
 const fetchDataFromJson = async () => {
   const res = await fetch("mainApiData.json");
   return res.json();
@@ -33,10 +34,14 @@ function App() {
   return (
     <>
       <Navbar selectItem={selectItem} />
+
+      
+
       <Banner />
       <StatsSection />
 
       <PremiumDigitalTools
+        selectItem={selectItem}
         clickedBtn={clickedBtn}
         setClickedBtn={setClickedBtn}
       />

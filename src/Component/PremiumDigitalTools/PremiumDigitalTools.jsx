@@ -1,6 +1,6 @@
 import React from "react";
 
-const PremiumDigitalTools = ({ setClickedBtn, clickedBtn }) => {
+const PremiumDigitalTools = ({ setClickedBtn, clickedBtn, selectItem }) => {
   return (
     <div className="mt-[120px] w-full bg-base-100 mx-auto">
       <div className="text-center">
@@ -12,7 +12,7 @@ const PremiumDigitalTools = ({ setClickedBtn, clickedBtn }) => {
           designed <br /> to boost your productivity and creativity.
         </p>
       </div>
-      <div className="flex items-center   shadow-md w-fit rounded-full  mx-auto mt-4">
+      <div className="flex items-center shadow-sm w-fit rounded-full  mx-auto mt-4">
         <button
           onClick={() => setClickedBtn("product")}
           className={`btn rounded-l-full w-32 ${clickedBtn === "product" ? "btn-primary" : "bg-white"}`}
@@ -23,7 +23,7 @@ const PremiumDigitalTools = ({ setClickedBtn, clickedBtn }) => {
           onClick={() => setClickedBtn("cart")}
           className={`rounded-r-full btn w-32 ${clickedBtn === "cart" ? "btn-primary" : "bg-white"}`}
         >
-          Cart
+          Cart({selectItem.length})
         </button>
       </div>
     </div>

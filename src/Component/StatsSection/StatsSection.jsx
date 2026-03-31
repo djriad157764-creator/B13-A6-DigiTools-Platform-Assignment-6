@@ -8,7 +8,7 @@ const StatsSection = () => {
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             50k +
           </h1>
-          <p className="font-medium text-lg sm:text-xl md:text-2xl text-white/80">
+          <p className="font-medium text-[14px] sm:text-lg md:text-xl lg:text-2xl text-white/80">
             Active Users
           </p>
         </div>
@@ -16,7 +16,7 @@ const StatsSection = () => {
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl px-2 sm:px-0">
             200 +
           </h1>
-          <p className="font-medium text-2xl text-lg sm:text-xl md:text-2xl text-white/80">
+          <p className="font-medium text-[14px] sm:text-lg md:text-xl lg:text-2xl text-white/80">
             Premium Tools
           </p>
         </div>
@@ -24,7 +24,7 @@ const StatsSection = () => {
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             4.9
           </h1>
-          <p className="font-medium text-2xl text-lg sm:text-xl md:text-2xl text-white/80">
+          <p className="font-medium text-[14px] sm:text-lg md:text-xl lg:text-2xl text-white/80">
             Rating
           </p>
         </div>

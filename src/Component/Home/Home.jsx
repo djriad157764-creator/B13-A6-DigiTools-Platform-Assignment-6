@@ -2,7 +2,13 @@ import React, { use } from "react";
 import Card from "../Card/Card";
 import SelectedCard from "../SelectedCard/SelectedCard";
 
-const Home = ({ promiseJsonData, clickedBtn, selectItem, setSelectItem }) => {
+const Home = ({
+  promiseJsonData,
+  clickedBtn,
+  selectItem,
+  setSelectItem,
+  setClickedBtn,
+}) => {
   const mainData = use(promiseJsonData);
 
   return (
@@ -18,7 +24,12 @@ const Home = ({ promiseJsonData, clickedBtn, selectItem, setSelectItem }) => {
             />
           ))}
         </div>
-      : <SelectedCard setSelectItem={setSelectItem} selectItem={selectItem} />}
+      : <SelectedCard
+          setClickedBtn={setClickedBtn}
+          setSelectItem={setSelectItem}
+          selectItem={selectItem}
+        />
+      }
     </>
   );
 };

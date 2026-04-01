@@ -59,6 +59,7 @@ function App() {
           setSelectItem={setSelectItem}
           selectItem={selectItem}
           clickedBtn={clickedBtn}
+          setClickedBtn={setClickedBtn}
           promiseJsonData={promiseJsonData}
         />
       </Suspense>

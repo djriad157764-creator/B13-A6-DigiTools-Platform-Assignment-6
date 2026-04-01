@@ -9,7 +9,10 @@ const Footer = () => {
       <div className="footer w-full pt-30 max-w-300 mx-auto sm:footer-horizontal  text-white p-10">
         <aside>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 cursor-pointer">
-            DigiTools
+            Digi{" "}
+            <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              Tools
+            </span>
           </h1>
           <p className="text-[#ffffffe5]">
             Premium digital tools for creators, <br /> professionals, and

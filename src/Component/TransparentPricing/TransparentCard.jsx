@@ -43,9 +43,9 @@ const TransparentCard = ({ cardData }) => {
           </button>
         </div>
       </div>
-      <div className="absolute left-[150px] -top-3">
+      <div className=" flex justify-center ">
         {badge ?
-          <span className="badge bg-[#FEF3C6] border-0 font-medium badge-sm text-[#BB4D00] badge-warning">
+          <span className="badge absolute w-[40%] tracking-widest -top-3 bg-[#FEF3C6] border-0 font-medium badge-sm text-[#BB4D00] badge-warning">
             {badge}
           </span>
         : ""}

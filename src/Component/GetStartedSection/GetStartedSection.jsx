@@ -8,7 +8,10 @@ const GetStartedSection = () => {
       <div className="py-3 w-full max-w-300 mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
-            Get Started in 3 Steps
+            Get Started in{" "}
+            <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              3 Steps
+            </span>
           </h1>
           <p className="text-[#627382]">
             Start using premium digital tools in minutes, not hours.

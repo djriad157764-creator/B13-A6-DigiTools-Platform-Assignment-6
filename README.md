@@ -1,16 +1,67 @@
-# React + Vite
+# Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description
 
-Currently, two official plugins are available:
+Access premium AI tools, design assets, templates, and productivity software—all in one place. Fully responsive and designed for a smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Technologies Used
 
-## React Compiler
+React.js  
+Tailwind CSS  
+DaisyUI  
+Vanilla CSS (Animations)  
+JavaScript (ES6+)  
+React-Toastify  
+JSON (Data handling)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add to cart with real-time navbar counter
+Prevent duplicate products in cart
+Toast notifications for all actions
+Fully responsive design
+Smooth UI with animations
+
+---
+
+# Main Features Overview
+
+# Navbar
+
+Shows cart item count
+Cart updates dynamically
+
+# Products
+
+3-column responsive layout
+Each card includes name, price, description, features, tag & image
+“Buy Now” button with toast alert
+
+# Cart
+
+Add & remove products
+Shows total price
+“Proceed to Checkout” clears cart with success message
+
+# Toggling
+
+Switch between Products & Cart
+Default view: Products
+
+# Sections Included
+
+Banner
+Stats
+Steps (3-step process)
+Pricing (from JSON data)
+Footer
+
+# Data
+
+9 products with id, name, price, features, tag, and image
+
+# 🔗 GitHub Repository
+
+[click](https://github.com/djriad157764-creator/B13-A6-DigiTools-Platform-Assignment-6/commits/main/)

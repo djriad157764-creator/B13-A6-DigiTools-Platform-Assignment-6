@@ -1,7 +1,7 @@
 import React from "react";
 import BannerImage from "../../assets/banner.png";
 import { IoPlayOutline } from "react-icons/io5";
-import "../../App.css"
+import "../../App.css";
 
 const Banner = () => {
   return (
@@ -23,7 +23,11 @@ const Banner = () => {
         </div>
         <div className="mb-4">
           <h1 className="font-extrabold animate-left-to-right text-4xl lg:leading-20 sm:text-5xl md:text-6xl lg:text-7xl text-[#101727]">
-            Supercharge Your <br className="hidden md:block" /> Digital Workflow
+            <span className="text-warning">Supercharge</span> Your{" "}
+            <br className="hidden md:block" />{" "}
+            <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              Digital Workflow
+            </span>
           </h1>
         </div>
         <div className="mb-4">

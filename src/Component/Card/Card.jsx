@@ -37,7 +37,7 @@ const Card = ({ cardData, selectItem, setSelectItem }) => {
       <div className="flex-1">
         <div className="p-3.5 animate-right-to-left animation-delay-4 border-2 rounded-full w-fit border-[#F2F2F2]">
           <img
-            className="w-8 h-8 object-cover rounded-full"
+            className="w-10 h-10 object-cover rounded-full"
             src={image}
             alt=""
           />

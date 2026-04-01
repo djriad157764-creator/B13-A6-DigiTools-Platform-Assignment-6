@@ -51,7 +51,7 @@ const Navbar = ({ selectItem }) => {
             className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl animate-right-to-left font-bold pb-2 cursor-pointer
           "
           >
-            DigiTool
+            DigiTools
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

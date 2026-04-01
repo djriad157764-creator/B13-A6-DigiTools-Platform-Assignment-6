@@ -6,7 +6,10 @@ const OptionalSection = () => {
       <div className=" w-full max-w-300 mx-auto text-center py-30">
         <div className="mb-10">
           <h1 className="text-white font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl">
-            Ready to Transform Your Workflow?
+            Ready to Transform Your
+            <span className="ml-1 bg-linear-to-r from-warning to-neutral-content bg-clip-text text-transparent ">
+              Workflow?
+            </span>
           </h1>
           <p className="text-white/90">
             Join thousands of professionals who are already using Digitools to

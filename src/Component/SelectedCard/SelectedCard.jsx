@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { FaOpencart } from "react-icons/fa";
 import { IoCheckmarkSharp } from "react-icons/io5";
 
-const SelectedCard = ({ selectItem, setSelectItem }) => {
+const SelectedCard = ({ selectItem, setSelectItem, setClickedBtn }) => {
   // reduce Total Price
   const totalPrice = selectItem.reduce((sum, item) => sum + item.price, 0);
 
@@ -24,10 +24,6 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
     );
   };
 
-  if (selectItem.length === 0) {
-  toast.warning("Your Cart is Empty Please Add Card")
-}
-
   return (
     <>
       {selectItem.length === 0 ?
@@ -40,18 +36,25 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
           </div>
           <div className="space-y-2 text-center">
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-600 ">
-              Your Cart Empty
+              Your Cart Empty ✔️
             </h2>
             <p className="text-base sm:text-lg text-gray-500 max-w-md">
               Looks like you haven't added any items yet.
               <br className="hidden md:block" />
-              Browse our products and find something you'll love!
+              <a
+                className="link text-primary"
+                onClick={() => setClickedBtn("product")}
+              >
+                {" "}
+                Browse our products
+              </a>{" "}
+              and find something you'll love!
             </p>
           </div>
         </div>
       : <div className="w-full max-w-300 mt-10 mx-auto p-2 sm:p-6 md:p-10 border-2 mb-30 border-base-200 rounded-2xl">
           <div className="">
-            <h1 className="font-bold text-2xl">your Cart</h1>
+            <h1 className="font-bold text-2xl">Your Cart</h1>
           </div>
           <div className="">
             {selectItem.map((cartData) => (

@@ -10,7 +10,10 @@ const TransparentPricing = ({ planPromise }) => {
       <div className="py-3 w-full max-w-300 mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
-            Simple, Transparent Pricing
+            Simple, Transparent 
+            <span className="ml-1 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              Pricing
+            </span>
           </h1>
           <p className="text-[#627382]">
             Choose the plan that fits your needs. Upgrade or downgrade anytime.

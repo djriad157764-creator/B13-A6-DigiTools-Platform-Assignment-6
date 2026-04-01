@@ -64,4 +64,6 @@ Footer
 
 # 🔗 GitHub Repository
 
-[click](https://github.com/djriad157764-creator/B13-A6-DigiTools-Platform-Assignment-6/commits/main/)
+[GitHub Repo](https://github.com/djriad157764-creator/B13-A6-DigiTools-Platform-Assignment-6/commits/main/)
+
+[Live Demo](https://b13-a6-digi-tools-platform-assignme.vercel.app/)

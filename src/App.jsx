@@ -54,7 +54,13 @@ function App() {
       />
 
       {/* Home Section  */}
-      <Suspense>
+      <Suspense
+        fallback={
+          <p className="text-5xl text-center flex justify-center items-center min-h-screen text-gray-500">
+            Loading...
+          </p>
+        }
+      >
         <Home
           setSelectItem={setSelectItem}
           selectItem={selectItem}
@@ -68,7 +74,13 @@ function App() {
       <GetStartedSection />
 
       {/* Transparent Pricing Section  */}
-      <Suspense>
+      <Suspense
+        fallback={
+          <p className="text-5xl text-center flex justify-center items-center min-h-screen text-gray-500">
+            Loading...
+          </p>
+        }
+      >
         <TransparentPricing planPromise={planPromise} />
       </Suspense>
 

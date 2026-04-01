@@ -31,7 +31,10 @@ const SelectedCard = ({ selectItem, setSelectItem }) => {
   return (
     <>
       {selectItem.length === 0 ?
-        <div className="w-full max-w-300 space-y-3 mt-10 mx-auto p-10 border-2 mb-30 border-base-200 rounded-2xl flex flex-col justify-center items-center ">
+        <div
+          id="cart-section"
+          className="w-full max-w-300 space-y-3 mt-10 mx-auto p-10 border-2 mb-30 border-base-200 rounded-2xl flex flex-col justify-center items-center "
+        >
           <div className="text-5xl sm:text-6xl md:text-7xl text-gray-400 animate-pulse">
             <FaOpencart />
           </div>

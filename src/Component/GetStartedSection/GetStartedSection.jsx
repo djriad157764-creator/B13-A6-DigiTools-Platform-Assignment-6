@@ -4,7 +4,7 @@ import RocketImage from "../../assets/rocket.png";
 
 const GetStartedSection = () => {
   return (
-    <div className="bg-base-100 px-4 mt-8 sm:px-6">
+    <div className="bg-base-200  px-4 mt-8 sm:px-6 ">
       <div className="py-3 w-full max-w-300 mx-auto ">
         <div className="text-center mt-10">
           <h1 className="text-[#101727] font-extrabold text-2xl mb-4 sm:text-3xl md:text-4xl lg:text-5xl ">
@@ -16,10 +16,10 @@ const GetStartedSection = () => {
         </div>
 
         {/* card container  */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-30">
-          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mb-30">
+          <div className="text-center relative animate-left-to-right bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-25 rounded-full  bg-base-100 p-5 mb-4"
+              className="mx-auto w-25 rounded-full  bg-base-200 p-5 mb-4"
               src={UserImage}
               alt="Create account illustration"
             />
@@ -37,9 +37,9 @@ const GetStartedSection = () => {
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+          <div className="text-center relative animate-right-to-left bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
             <img
-              className="mx-auto w-25 rounded-full  bg-base-100 p-5 mb-4"
+              className="mx-auto w-25 rounded-full  bg-base-200 p-5 mb-4"
               src={ProductImage}
               alt="Choose products illustration"
             />
@@ -56,8 +56,8 @@ const GetStartedSection = () => {
               </h1>
             </div>
           </div>
-          <div className="text-center relative bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
-            <div className="w-25 h-25 mx-auto rounded-full bg-base-100 flex items-center justify-center mb-4">
+          <div className="text-center relative animate-left-to-right bg-white px-6 py-22 rounded-2xl border border-neutral-200  hover:-translate-y-1.5 transition hover:shadow-xl  duration-300">
+            <div className="w-25 h-25 mx-auto rounded-full bg-base-200 flex items-center justify-center mb-4">
               <img
                 className="w-15 object-contain"
                 src={RocketImage}

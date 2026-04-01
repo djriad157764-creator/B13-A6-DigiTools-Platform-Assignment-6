@@ -33,9 +33,9 @@ const Card = ({ cardData, selectItem, setSelectItem }) => {
   const btnClicked = buyNowBtnClicked || isAlreadyInCart;
 
   return (
-    <div className="bg-white transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl  p-6  border border-neutral-100 space-y-4">
+    <div className="bg-white zoom-in transition duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer  shadow-sm relative flex flex-col  rounded-2xl  p-6  border border-neutral-100 space-y-4">
       <div className="flex-1">
-        <div className="p-3.5 border-2 rounded-full w-fit border-[#F2F2F2]">
+        <div className="p-3.5 animate-right-to-left animation-delay-4 border-2 rounded-full w-fit border-[#F2F2F2]">
           <img
             className="w-8 h-8 object-cover rounded-full"
             src={image}
@@ -43,20 +43,26 @@ const Card = ({ cardData, selectItem, setSelectItem }) => {
           />
         </div>
         <div className="mb-4">
-          <h1 className=" font-bold text-2xl mb-4">{name}</h1>
+          <h1 className=" font-bold text-2xl mb-4 animate-left-to-right animation-delay-4">
+            {name}
+          </h1>
           <p
             className="text-[#627382]
-          "
+           animate-right-to-left animation-delay-4"
           >
             {description}
           </p>
         </div>
         <div className="mb-4">
-          <span className="font-bold text-2xl">${price}</span>
-          <span className="text-[#627382]">/{period}</span>
+          <span className="font-bold text-2xl animate-left-to-right animation-delay-4">
+            ${price}
+          </span>
+          <span className="text-[#627382] animate-right-to-left animation-delay-4">
+            /{period}
+          </span>
         </div>
         <div className="">
-          <ul className="text-[#627382]">
+          <ul className="text-[#627382] card-list">
             {features.map((item, ind) => (
               <CardList key={ind} item={item} />
             ))}

@@ -1,0 +1,136 @@
+@keyframes right-to-left {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes left-to-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes top-to-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes bottom-to-top {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu li {
+  opacity: 1;
+}
+.menu.show li {
+  opacity: 0;
+  animation: right-to-left 0.5s ease forwards;
+}
+.card-list {
+  opacity: 1;
+}
+.card-list li {
+  opacity: 0;
+  animation: right-to-left 0.5s ease forwards;
+}
+.card-list-card {
+  opacity: 0;
+  animation: right-to-left 0.5s ease forwards;
+}
+
+.menu.show li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.menu.show li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.menu.show li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.menu.show li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.menu.show li:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+
+.card-li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.card-li:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.card-li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.card-li:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+
+.animate-right-to-left {
+    opacity: 0;
+  animation: right-to-left 0.5s ease forwards;
+}
+.animate-left-to-right {
+  opacity: 0;
+  animation: left-to-right 0.5s ease forwards;
+}
+.animate-top-to-bottom {
+  opacity: 0;
+  animation: top-to-bottom 0.5s ease forwards;
+}
+.animate-bottom-to-top {
+  opacity: 0;
+  animation: bottom-to-top 0.5s ease forwards;
+}
+
+.animation-delay-1 {
+  animation-delay: 0.1s;
+}
+.animation-delay-2 {
+  animation-delay: 0.2s;
+}
+.animation-delay-3 {
+  animation-delay: 0.3s;
+}
+.animation-delay-4 {
+  animation-delay: 0.4s;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-in {
+    opacity: 0;
+  animation: zoomIn .5s ease forwards;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 const StatsSection = () => {
   return (
-    <div className="bg-linear-to-r zoom-in from-[#4F39F6] to-[#9514FA] mt-20 mb-30">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] mt-20 mb-30">
       <div className="w-full max-w-300 mx-auto grid grid-cols-3 py-15">
         <div className="text-center border-r-2 border-white/40">
           <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl animate-right-to-left animation-delay-4 lg:text-5xl xl:text-6xl">

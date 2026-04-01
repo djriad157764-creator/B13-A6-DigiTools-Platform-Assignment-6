@@ -8,7 +8,7 @@ const Navbar = ({ selectItem }) => {
   const [activeB, setActiveB] = useState(false);
 
   return (
-    <div className="shadow-sm sticky top-0 z-10 bg-white">
+    <div className="shadow-sm sticky top-0 z-10 bg-white/30 backdrop-blur-3xl">
       <div className="navbar rounded-b-lg w-full max-w-300  mx-auto">
         <div className="navbar-start">
           <div className="relative">
@@ -48,7 +48,7 @@ const Navbar = ({ selectItem }) => {
             </ul>
           </div>
           <a
-            className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl animate-right-to-left font-bold pb-2 cursor-pointer
+            className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl animate-right-to-left font-bold pb-2 cursor-pointer 
           "
           >
             DigiTools
@@ -77,8 +77,8 @@ const Navbar = ({ selectItem }) => {
           <div className="mr-4 animate-left-to-right animation-delay-2 cursor-pointer relative">
             <FiShoppingCart className="text-2xl " />
             {selectItem.length !== 0 && (
-              <div className="bg-red-600 text-white absolute -top-1 -right-2  rounded-full flex justify-center items-center text-[10px] w-4 h-4">
-                <p className="font-bold">{selectItem.length}</p>
+              <div className="bg-primary absolute -top-1 -right-2  rounded-full flex justify-center items-center text-[10px] w-4 h-4">
+                <p className="font-bold text-gray-200">{selectItem.length}</p>
               </div>
             )}
           </div>

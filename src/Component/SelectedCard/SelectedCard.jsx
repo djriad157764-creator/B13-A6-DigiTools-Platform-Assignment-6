@@ -31,12 +31,12 @@ const SelectedCard = ({ selectItem, setSelectItem, setClickedBtn }) => {
           id="cart-section"
           className="w-full max-w-300 space-y-3 mt-10 mx-auto p-10 border-2 mb-30 border-base-200 rounded-2xl flex flex-col justify-center items-center "
         >
-          <div className="text-5xl sm:text-6xl md:text-7xl text-gray-400 animate-pulse">
+          <div className="text-7xl sm:text-8xl md:text-9xl text-gray-400 animate-pulse">
             <FaOpencart />
           </div>
           <div className="space-y-2 text-center">
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-600 ">
-              Your Cart Empty ✔️
+              Your Cart Empty 😢
             </h2>
             <p className="text-base sm:text-lg text-gray-500 max-w-md">
               Looks like you haven't added any items yet.
@@ -46,7 +46,7 @@ const SelectedCard = ({ selectItem, setSelectItem, setClickedBtn }) => {
                 onClick={() => setClickedBtn("product")}
               >
                 {" "}
-                Browse our products
+                <br className="md:hidden" /> Browse our products
               </a>{" "}
               and find something you'll love!
             </p>
